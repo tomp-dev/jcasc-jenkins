@@ -31,7 +31,6 @@ jenkins:
       allowsSignup: false
       enableCaptcha: false
       users:
-#      - id: "admin"
       - id: ${JENKINS_ADMIN_ID:-admin}
         name: ${JENKINS_ADMIN_ID:-admin}
         password: ${JENKINS_ADMIN_PASS:-admin}
